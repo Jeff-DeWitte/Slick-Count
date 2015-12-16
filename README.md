@@ -1,4 +1,5 @@
 SlickCount
+
 Basic counter app with some UX twists. It's a work in progress, about 60% of the way complete for the intial version.
 
 TODOs:
