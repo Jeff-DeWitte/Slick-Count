@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ChameleonFramework" "${PODS_ROOT}/Headers/Public/DZNEmptyDataSet" "${PODS_ROOT}/Headers/Public/FXBlurView" "${PODS_ROOT}/Headers/Public/IAPHelper" "${PODS_ROOT}/Headers/Public/TAPromotee" "${PODS_ROOT}/Headers/Public/iRate" "${PODS_ROOT}/Headers/Public/pop"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ChameleonFramework" -isystem "${PODS_ROOT}/Headers/Public/DZNEmptyDataSet" -isystem "${PODS_ROOT}/Headers/Public/FXBlurView" -isystem "${PODS_ROOT}/Headers/Public/IAPHelper" -isystem "${PODS_ROOT}/Headers/Public/TAPromotee" -isystem "${PODS_ROOT}/Headers/Public/iRate" -isystem "${PODS_ROOT}/Headers/Public/pop"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ChameleonFramework" -l"DZNEmptyDataSet" -l"FXBlurView" -l"IAPHelper" -l"TAPromotee" -l"c++" -l"iRate" -l"pop" -framework "Accelerate" -framework "CoreGraphics" -framework "QuartzCore" -framework "StoreKit" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

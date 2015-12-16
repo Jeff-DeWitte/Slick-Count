@@ -1,0 +1,30 @@
+PODS:
+  - ChameleonFramework (2.0.6):
+    - ChameleonFramework/Default (= 2.0.6)
+  - ChameleonFramework/Default (2.0.6)
+  - DZNEmptyDataSet (1.7.2)
+  - FXBlurView (1.6.4)
+  - IAPHelper (1.0.8.1)
+  - iRate (1.11.4)
+  - pop (1.0.8)
+  - TAPromotee (0.4.1):
+    - FXBlurView (~> 1.6)
+
+DEPENDENCIES:
+  - ChameleonFramework
+  - DZNEmptyDataSet
+  - IAPHelper
+  - iRate
+  - pop (~> 1.0)
+  - TAPromotee
+
+SPEC CHECKSUMS:
+  ChameleonFramework: a6b466873ff9a4ce3a5196c20bccf1a97ad9f446
+  DZNEmptyDataSet: 0ec00bfc230d7450997b60c127afdd0b9f24f3b6
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  IAPHelper: fbed593436838c3d40753ded319062b68c00cc38
+  iRate: 599ed07c854e0695f3c605d1b2a64c67d912acb7
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  TAPromotee: 7b0ae71f3350653fe9f224a5bb208aa23d484047
+
+COCOAPODS: 0.39.0

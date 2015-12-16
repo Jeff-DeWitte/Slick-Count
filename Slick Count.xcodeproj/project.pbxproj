@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3EAA761C20FE800000A5DA /* AFPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3EAA751C20FE800000A5DA /* AFPTabBarController.m */; };
+		1F3EAA791C20FF140000A5DA /* AFPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3EAA781C20FF140000A5DA /* AFPNavigationController.m */; };
+		1F4313E21C21C68F00D5BA79 /* EditCounterTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4313E11C21C68F00D5BA79 /* EditCounterTextField.m */; };
+		2F4A09251C04A13100C64E0D /* ColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4A09241C04A13100C64E0D /* ColorButton.m */; };
+		2F84A39A1C01171E00264B41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F84A3991C01171E00264B41 /* main.m */; };
+		2F84A39D1C01171E00264B41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F84A39C1C01171E00264B41 /* AppDelegate.m */; };
+		2F84A3A31C01171E00264B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F84A3A11C01171E00264B41 /* Main.storyboard */; };
+		2F84A3A61C01171E00264B41 /* Slick_Count.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F84A3A41C01171E00264B41 /* Slick_Count.xcdatamodeld */; };
+		2F84A3A81C01171E00264B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F84A3A71C01171E00264B41 /* Assets.xcassets */; };
+		2F84A3AB1C01171E00264B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F84A3A91C01171E00264B41 /* LaunchScreen.storyboard */; };
+		2F84A3B31C01176600264B41 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F84A3B21C01176600264B41 /* CoreData.framework */; };
+		2F84A3B51C01177700264B41 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F84A3B41C01177700264B41 /* CoreGraphics.framework */; };
+		2F84A3B71C01178500264B41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F84A3B61C01178500264B41 /* UIKit.framework */; };
+		2F84A3B91C01179400264B41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F84A3B81C01179400264B41 /* Foundation.framework */; };
+		2F84A3BB1C0117E300264B41 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F84A3BA1C0117E300264B41 /* iAd.framework */; };
+		2F84A3BE1C011FD000264B41 /* CounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F84A3BD1C011FD000264B41 /* CounterViewController.m */; };
+		2F84A3C31C012BDB00264B41 /* CounterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F84A3C21C012BDB00264B41 /* CounterTableViewCell.m */; };
+		2F84A3C61C012D5900264B41 /* CountChangeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F84A3C51C012D5900264B41 /* CountChangeButton.m */; };
+		2F84A3C91C018D7B00264B41 /* NewCounterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F84A3C81C018D7B00264B41 /* NewCounterViewController.m */; };
+		2F84A3CC1C018FD700264B41 /* NavButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F84A3CB1C018FD700264B41 /* NavButton.m */; };
+		C2A1B5332D4C44A4A36F6B71 /* libPods-Slick Count.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE86C48AF3ACD6F3F1C18CB /* libPods-Slick Count.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F3EAA741C20FE800000A5DA /* AFPTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPTabBarController.h; sourceTree = "<group>"; };
+		1F3EAA751C20FE800000A5DA /* AFPTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPTabBarController.m; sourceTree = "<group>"; };
+		1F3EAA771C20FF140000A5DA /* AFPNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPNavigationController.h; sourceTree = "<group>"; };
+		1F3EAA781C20FF140000A5DA /* AFPNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPNavigationController.m; sourceTree = "<group>"; };
+		1F4313E01C21C68F00D5BA79 /* EditCounterTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditCounterTextField.h; sourceTree = "<group>"; };
+		1F4313E11C21C68F00D5BA79 /* EditCounterTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditCounterTextField.m; sourceTree = "<group>"; };
+		2F4A09231C04A13100C64E0D /* ColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorButton.h; sourceTree = "<group>"; };
+		2F4A09241C04A13100C64E0D /* ColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorButton.m; sourceTree = "<group>"; };
+		2F84A3951C01171E00264B41 /* Slick Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slick Count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F84A3991C01171E00264B41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F84A39B1C01171E00264B41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F84A39C1C01171E00264B41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F84A3A21C01171E00264B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F84A3A51C01171E00264B41 /* Slick_Count.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Slick_Count.xcdatamodel; sourceTree = "<group>"; };
+		2F84A3A71C01171E00264B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F84A3AA1C01171E00264B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F84A3AC1C01171E00264B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F84A3B21C01176600264B41 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2F84A3B41C01177700264B41 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2F84A3B61C01178500264B41 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2F84A3B81C01179400264B41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F84A3BA1C0117E300264B41 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		2F84A3BC1C011FD000264B41 /* CounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterViewController.h; sourceTree = "<group>"; };
+		2F84A3BD1C011FD000264B41 /* CounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterViewController.m; sourceTree = "<group>"; };
+		2F84A3C11C012BDB00264B41 /* CounterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CounterTableViewCell.h; sourceTree = "<group>"; };
+		2F84A3C21C012BDB00264B41 /* CounterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CounterTableViewCell.m; sourceTree = "<group>"; };
+		2F84A3C41C012D5900264B41 /* CountChangeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountChangeButton.h; sourceTree = "<group>"; };
+		2F84A3C51C012D5900264B41 /* CountChangeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountChangeButton.m; sourceTree = "<group>"; };
+		2F84A3C71C018D7B00264B41 /* NewCounterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewCounterViewController.h; sourceTree = "<group>"; };
+		2F84A3C81C018D7B00264B41 /* NewCounterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewCounterViewController.m; sourceTree = "<group>"; };
+		2F84A3CA1C018FD700264B41 /* NavButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavButton.h; sourceTree = "<group>"; };
+		2F84A3CB1C018FD700264B41 /* NavButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavButton.m; sourceTree = "<group>"; };
+		6855F3000F5F88C0D68CAE9E /* Pods-Slick Count.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slick Count.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Slick Count/Pods-Slick Count.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE86C48AF3ACD6F3F1C18CB /* libPods-Slick Count.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Slick Count.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1EF21DEEA42BCFA3CD0508 /* Pods-Slick Count.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Slick Count.release.xcconfig"; path = "Pods/Target Support Files/Pods-Slick Count/Pods-Slick Count.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F84A3921C01171E00264B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F84A3BB1C0117E300264B41 /* iAd.framework in Frameworks */,
+				2F84A3B91C01179400264B41 /* Foundation.framework in Frameworks */,
+				2F84A3B71C01178500264B41 /* UIKit.framework in Frameworks */,
+				2F84A3B51C01177700264B41 /* CoreGraphics.framework in Frameworks */,
+				2F84A3B31C01176600264B41 /* CoreData.framework in Frameworks */,
+				C2A1B5332D4C44A4A36F6B71 /* libPods-Slick Count.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F84A38C1C01171E00264B41 = {
+			isa = PBXGroup;
+			children = (
+				2F84A3BA1C0117E300264B41 /* iAd.framework */,
+				2F84A3B81C01179400264B41 /* Foundation.framework */,
+				2F84A3B61C01178500264B41 /* UIKit.framework */,
+				2F84A3B41C01177700264B41 /* CoreGraphics.framework */,
+				2F84A3B21C01176600264B41 /* CoreData.framework */,
+				2F84A3971C01171E00264B41 /* Slick Count */,
+				2F84A3961C01171E00264B41 /* Products */,
+				33BE3C7871448D0EF5612A76 /* Pods */,
+				CC370A123E54E23C4896F6EE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F84A3961C01171E00264B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F84A3951C01171E00264B41 /* Slick Count.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F84A3971C01171E00264B41 /* Slick Count */ = {
+			isa = PBXGroup;
+			children = (
+				2F84A3C01C012BA200264B41 /* Custom Classes */,
+				2F84A39B1C01171E00264B41 /* AppDelegate.h */,
+				2F84A39C1C01171E00264B41 /* AppDelegate.m */,
+				2F84A3BF1C012B7800264B41 /* View Controllers */,
+				2F84A3A11C01171E00264B41 /* Main.storyboard */,
+				2F84A3A71C01171E00264B41 /* Assets.xcassets */,
+				2F84A3A91C01171E00264B41 /* LaunchScreen.storyboard */,
+				2F84A3AC1C01171E00264B41 /* Info.plist */,
+				2F84A3A41C01171E00264B41 /* Slick_Count.xcdatamodeld */,
+				2F84A3981C01171E00264B41 /* Supporting Files */,
+			);
+			path = "Slick Count";
+			sourceTree = "<group>";
+		};
+		2F84A3981C01171E00264B41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F84A3991C01171E00264B41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F84A3BF1C012B7800264B41 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2F84A3BC1C011FD000264B41 /* CounterViewController.h */,
+				2F84A3BD1C011FD000264B41 /* CounterViewController.m */,
+				2F84A3C71C018D7B00264B41 /* NewCounterViewController.h */,
+				2F84A3C81C018D7B00264B41 /* NewCounterViewController.m */,
+				1F3EAA741C20FE800000A5DA /* AFPTabBarController.h */,
+				1F3EAA751C20FE800000A5DA /* AFPTabBarController.m */,
+				1F3EAA771C20FF140000A5DA /* AFPNavigationController.h */,
+				1F3EAA781C20FF140000A5DA /* AFPNavigationController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2F84A3C01C012BA200264B41 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2F84A3C11C012BDB00264B41 /* CounterTableViewCell.h */,
+				2F84A3C21C012BDB00264B41 /* CounterTableViewCell.m */,
+				2F84A3C41C012D5900264B41 /* CountChangeButton.h */,
+				2F84A3C51C012D5900264B41 /* CountChangeButton.m */,
+				2F84A3CA1C018FD700264B41 /* NavButton.h */,
+				2F84A3CB1C018FD700264B41 /* NavButton.m */,
+				2F4A09231C04A13100C64E0D /* ColorButton.h */,
+				2F4A09241C04A13100C64E0D /* ColorButton.m */,
+				1F4313E01C21C68F00D5BA79 /* EditCounterTextField.h */,
+				1F4313E11C21C68F00D5BA79 /* EditCounterTextField.m */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+		33BE3C7871448D0EF5612A76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6855F3000F5F88C0D68CAE9E /* Pods-Slick Count.debug.xcconfig */,
+				9E1EF21DEEA42BCFA3CD0508 /* Pods-Slick Count.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC370A123E54E23C4896F6EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FE86C48AF3ACD6F3F1C18CB /* libPods-Slick Count.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F84A3941C01171E00264B41 /* Slick Count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F84A3AF1C01171E00264B41 /* Build configuration list for PBXNativeTarget "Slick Count" */;
+			buildPhases = (
+				E273A3983E8C359DEBDF525B /* Check Pods Manifest.lock */,
+				2F84A3911C01171E00264B41 /* Sources */,
+				2F84A3921C01171E00264B41 /* Frameworks */,
+				2F84A3931C01171E00264B41 /* Resources */,
+				4A4BB9C913473ABB4B1F9397 /* Embed Pods Frameworks */,
+				7F09C695693B7E30597A5561 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slick Count";
+			productName = "Slick Count";
+			productReference = 2F84A3951C01171E00264B41 /* Slick Count.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F84A38D1C01171E00264B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = AFP;
+				TargetAttributes = {
+					2F84A3941C01171E00264B41 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 2NUP76MX22;
+					};
+				};
+			};
+			buildConfigurationList = 2F84A3901C01171E00264B41 /* Build configuration list for PBXProject "Slick Count" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F84A38C1C01171E00264B41;
+			productRefGroup = 2F84A3961C01171E00264B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F84A3941C01171E00264B41 /* Slick Count */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F84A3931C01171E00264B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F84A3AB1C01171E00264B41 /* LaunchScreen.storyboard in Resources */,
+				2F84A3A81C01171E00264B41 /* Assets.xcassets in Resources */,
+				2F84A3A31C01171E00264B41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A4BB9C913473ABB4B1F9397 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slick Count/Pods-Slick Count-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F09C695693B7E30597A5561 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Slick Count/Pods-Slick Count-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E273A3983E8C359DEBDF525B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F84A3911C01171E00264B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F84A3C31C012BDB00264B41 /* CounterTableViewCell.m in Sources */,
+				2F4A09251C04A13100C64E0D /* ColorButton.m in Sources */,
+				2F84A3C91C018D7B00264B41 /* NewCounterViewController.m in Sources */,
+				1F4313E21C21C68F00D5BA79 /* EditCounterTextField.m in Sources */,
+				2F84A39D1C01171E00264B41 /* AppDelegate.m in Sources */,
+				2F84A3BE1C011FD000264B41 /* CounterViewController.m in Sources */,
+				2F84A3A61C01171E00264B41 /* Slick_Count.xcdatamodeld in Sources */,
+				1F3EAA791C20FF140000A5DA /* AFPNavigationController.m in Sources */,
+				2F84A39A1C01171E00264B41 /* main.m in Sources */,
+				2F84A3C61C012D5900264B41 /* CountChangeButton.m in Sources */,
+				1F3EAA761C20FE800000A5DA /* AFPTabBarController.m in Sources */,
+				2F84A3CC1C018FD700264B41 /* NavButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F84A3A11C01171E00264B41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F84A3A21C01171E00264B41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F84A3A91C01171E00264B41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F84A3AA1C01171E00264B41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F84A3AD1C01171E00264B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F84A3AE1C01171E00264B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F84A3B01C01171E00264B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6855F3000F5F88C0D68CAE9E /* Pods-Slick Count.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeffrey DeWitte (GXED4YN483)";
+				INFOPLIST_FILE = "Slick Count/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AFP.Slick-Count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb9a2d2a-e9d8-471c-a003-e38f7ca4d2b9";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2F84A3B11C01171E00264B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1EF21DEEA42BCFA3CD0508 /* Pods-Slick Count.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jeffrey DeWitte (GXED4YN483)";
+				INFOPLIST_FILE = "Slick Count/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AFP.Slick-Count";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb9a2d2a-e9d8-471c-a003-e38f7ca4d2b9";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F84A3901C01171E00264B41 /* Build configuration list for PBXProject "Slick Count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F84A3AD1C01171E00264B41 /* Debug */,
+				2F84A3AE1C01171E00264B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F84A3AF1C01171E00264B41 /* Build configuration list for PBXNativeTarget "Slick Count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F84A3B01C01171E00264B41 /* Debug */,
+				2F84A3B11C01171E00264B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F84A3A41C01171E00264B41 /* Slick_Count.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F84A3A51C01171E00264B41 /* Slick_Count.xcdatamodel */,
+			);
+			currentVersion = 2F84A3A51C01171E00264B41 /* Slick_Count.xcdatamodel */;
+			path = Slick_Count.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F84A38D1C01171E00264B41 /* Project object */;
+}
